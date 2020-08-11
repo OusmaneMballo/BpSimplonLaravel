@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4058b0d3-d320-40cd-a8f0-8daab761d87c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../BanqueDuPeupleSymfony/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BanqueDuPeupleSymfony/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ClientMoral.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ClientMoral.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ClientPhysique.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ClientPhysique.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Compte.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Compte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/FraisBancaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/FraisBancaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/TypeClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/TypeClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/TypeCompte.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/TypeCompte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/TypeFrais.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/TypeFrais.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +21,29 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/ClientMoral.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BanqueDuPeupleSymfony/src/Entity/ClientMoral.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1099">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../BanqueDuPeupleSymfony" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -29,6 +55,13 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/compte/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/TypeFrais.php" />
+        <option value="$PROJECT_DIR$/app/TypeCompte.php" />
+        <option value="$PROJECT_DIR$/app/TypeClient.php" />
+        <option value="$PROJECT_DIR$/app/FraisBancaire.php" />
+        <option value="$PROJECT_DIR$/app/Compte.php" />
+        <option value="$PROJECT_DIR$/app/ClientPhysique.php" />
+        <option value="$PROJECT_DIR$/app/ClientMoral.php" />
       </list>
     </option>
   </component>
@@ -156,6 +189,26 @@
               <item name="BpLaravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="BpLaravel" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BpLaravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BpLaravel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BpLaravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BanqueDuPeupleSymfony" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BpLaravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BanqueDuPeupleSymfony" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BpLaravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BanqueDuPeupleSymfony" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -217,24 +270,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597140418642</updated>
-      <workItem from="1597140422656" duration="9899000" />
+      <workItem from="1597140422656" duration="13719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9899000" />
+    <option name="totallyTimeSpent" value="13719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2180937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2180937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -390,6 +444,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2037">
           <caret line="96" column="23" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BanqueDuPeupleSymfony/src/Entity/TypeFrais.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BanqueDuPeupleSymfony/src/Entity/TypeCompte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TypeCompte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TypeClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BanqueDuPeupleSymfony/src/Entity/TypeClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BanqueDuPeupleSymfony/src/Entity/FraisBancaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FraisBancaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BanqueDuPeupleSymfony/src/Entity/Compte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-536">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Compte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TypeFrais.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BanqueDuPeupleSymfony/src/Entity/ClientPhysique.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ClientPhysique.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BanqueDuPeupleSymfony/src/Entity/ClientMoral.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1099">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ClientMoral.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
         </state>
       </provider>
     </entry>

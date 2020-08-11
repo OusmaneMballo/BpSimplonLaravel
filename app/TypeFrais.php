@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class TypeFrais extends Model
 {
-    //
+    protected $fillable=array('libelle','frais');
+    public static $rules=array('libelle'=>'required|string',
+                                'frais'=>'required|double');
+
 }
