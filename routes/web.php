@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/client',function (){
+    return view('client/index');
+})->name('beignet');
+Route::get('/compte',function (){
+    return view('compte/index');
+})->name('couddou');

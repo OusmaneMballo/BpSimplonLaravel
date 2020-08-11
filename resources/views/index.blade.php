@@ -3,5 +3,5 @@
     Accueil
 @endsection
 @section('content')
-    <h1>Hellow!</h1>
+    <h1>Bienvenue! a la banque du peuple...</h1>
 @endsection

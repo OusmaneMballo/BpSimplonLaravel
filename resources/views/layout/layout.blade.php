@@ -23,13 +23,13 @@
         <img src={{asset('img/profil.jpg') }} class="profil" alt="Banque du Peuple" srcset=""/>
         <p class="mail">xywzt@gmail.com</p>
         <div class="contener" style="background-color: rgb(85, 163, 231); color: white;">
-            <a href="#">Dashboard</a>
+            <a href="/">Dashboard</a>
         </div>
         <div class="contener">
-            <a href="#">Compte</a>
+            <a href="{{ route('couddou') }}">Compte</a>
         </div>
         <div class="contener">
-            <a href="#">Client</a>
+            <a href="{{ route('beignet') }}">Client</a>
         </div>
         <div class="contener">
             Logout
