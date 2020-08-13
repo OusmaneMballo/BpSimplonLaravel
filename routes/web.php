@@ -27,7 +27,6 @@ Route::post('/ajoutclient','ClientController@add')
 /*==========-------------------------================*/
 
 /*==========Routes du controller compte==============*/
-Route::get('/compte',function (){
-    return view('compte/index');
-})->name('couddou');
+Route::get('/compte','CompteController@index')
+    ->name('couddou');
 //==========-------------------------=================*/
