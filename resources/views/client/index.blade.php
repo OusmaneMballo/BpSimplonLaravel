@@ -94,9 +94,11 @@
                             <input type="text" class="inputcl" id="salairecp" name="salairecp"/>
                             <select name='employeur' id='employeur' class='slct2 selectclt' onchange='employeurForm()'>
                                 <option value='0'>--Employer--</option>
-                               {{-- {% for employeur in client_morals %}
-                                <option value="{{ employeur.id }}">{{ employeur.id }}-{{ employeur.nom }}</option>
-                                {% endfor %}--}}
+                                @if(!empty($employeurs))
+                                    @foreach($employeurs as $employeur)
+                                        <option value="{{ $employeur->id }}">{{ $employeur->id }}-{{ $employeur->nom }}</option>
+                                    @endforeach
+                                @endif
                                 <option value='-1'>Ajouter son employeur</option>
                             </select>
                         </div>
