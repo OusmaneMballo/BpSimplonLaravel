@@ -16,9 +16,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/client',function (){
-    return view('client/index');
-})->name('beignet');
+
+/*========Routes du controller client===============*/
+
+Route::get('/client','ClientController@index')
+    ->name('beignet');
+Route::post('/ajoutclient','ClientController@add')
+    ->name('addclient');
+
+/*==========-------------------------================*/
+
+/*==========Routes du controller compte==============*/
 Route::get('/compte',function (){
     return view('compte/index');
 })->name('couddou');
+//==========-------------------------=================*/

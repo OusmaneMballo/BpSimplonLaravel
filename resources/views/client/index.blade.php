@@ -5,10 +5,8 @@
 @section('content')
     <fieldset>
         <legend>Creation Client</legend>
-        <form class="form" onsubmit="return post()" method="post" action="#">
-            {{--<div>
-                <input type="hidden" name="token" value="{{ csrf_token('client_token') }}">
-            </div>--}}
+        <form class="form" onsubmit="return post()" method="post" action="{{ route('addclient') }}">
+            @csrf
             <div>
                 <select name="typeclient" id="typeclient" class="slct selectclt" onchange="typeClient()">
                     <option value="0">--Choix du Type de Client--</option>
@@ -81,6 +79,14 @@
                                {{-- {% for typeclient in typeclients %}
                                 <option value="{{ typeclient.id }}">{{ typeclient.id }}-{{ typeclient.libelle }}</option>
                                 {% endfor %}--}}
+                                @if(!empty($typeclient))
+                                    @foreach($typeclient as $client)
+                                        <option value="{{ $client->id }}">{{ $client->id }}-{{ $client->libelle }}</option>
+                                    @endforeach
+                                    {{--@if(isset($resultat))
+                                        <p>Le client {{$client->id}} est archive!</p>
+                                    @endif--}}
+                                @endif
                             </select>
                         </div>
                         <div class="row" id="salarier" hidden>
