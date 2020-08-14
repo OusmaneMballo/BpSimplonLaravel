@@ -5,8 +5,8 @@
 @section('content')
     <fieldset>
         <legend>Creation Compte</legend>
-        <form action="#" class="form" method="post" onsubmit="return post()">
-{{--            <input type="hidden" name="token" value="{{ csrf_token('compte_token') }}">--}}
+        <form action="{{ route('addcompte') }}" class="form" method="post" onsubmit="return post()">
+            @csrf
             <div class="row">
                 <select name="typecp" class="selectcmpt" id="typecp" onchange="frais()">
                     <option value="0">--Type Compte--</option>
